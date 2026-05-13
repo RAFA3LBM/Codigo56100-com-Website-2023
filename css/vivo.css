@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2 family=Cabin&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+@import url(menu.css);
+@import url(date-time.css);
+@import url(slider.css);
+/*----- Generales -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/background.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+/*----------------- Main -----------------*/
+main .portada {
+    font-size: 18px;
+    min-height: 350px;
+    color: #fff;
+    background: url(../img/main-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+main .portada .contenedor {
+    text-align: center;
+}
+main .portada .contenedor .logo img {
+    width: 300px;
+}
+/*----------------- CALENDARIO -----------------*/
+.calendario {
+    background: #fbfbfb;
+}
+.titulo {
+    background: #fff;
+    padding: 20px 0px;
+}
+.titulo .contenedor .contador {
+    display: flex;
+}
+.codigovivo {
+    background: #fff;
+}
+.codigovivo .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+.codigovivo .contenedor .video {
+    width: 100%;
+}
+.codigovivo .contenedor .video iframe {
+    width: 100%;
+}
+
+/*----------------- programas anteriores -----------------*/
+.listas-de-reproduccion {
+    padding: 20px 0px;
+}
+.listas-de-reproduccion .programas-titulo .contenedor h2 {
+    padding: 20px 0px;
+    color: #fff;
+}
+.listas-de-reproduccion {
+    background: url(../img/degradados/degradado-1.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/*----------------- COMENTARIOS FACEBOOK -----------------*/
+.comentarios .contenedor .izq-coments .tex-comentarios h4 {
+    padding: 20px 10px;
+    background: #fff;
+}
+.comentarios .contenedor .izq-coments .comentarios {
+    background: #fff;
+}
+.comentarios .contenedor .der-widget .facebook-widget {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Pie de página / Footer -----*/
+.footer {
+    background: #333;
+    padding: 50px 10px;
+    color: #fff;
+    text-decoration: none;
+} .footer .contenedor .espacio {
+    align-content: center;
+    text-align: center;
+}
+.footer .contenedor .espacio img {
+    width: 200px;
+}
+.footer .contenedor a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer .contenedor .centro {
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0px;
+}
+.footer .contenedor .centro .redes img {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.footer .contenedor .enlaces {
+    text-align: center;
+}
+.footer .contenedor .enlaces .boton {
+    margin: 10px 0px;
+    text-align: center;
+}
+.footer  .final {
+    text-align: center;
+}
+.footer  .final p {
+    font-size: 8px;
+}
+/*----- Estilos de 1024px en escritorio -----*/
+@media (min-width:768px) {
+    .contenedor {
+        width: 90%;
+    }
+    
+    /*----- Comentarios y Wi de Facebook y Twitter -----*/
+    .comentarios .contenedor {
+        display: flex;
+    }
+    .comentarios .contenedor .izq-coments {
+        width: 70%;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+    .comentarios .contenedor .izq-coments .tex-comentarios {
+        margin: 0px;
+    }
+    .comentarios .contenedor .izq-coments .comentarios {
+        background: #fff;
+    }
+    .comentarios .contenedor .der-widget {
+        width: 30%;
+        margin: 0px 10px;
+    }
+    .comentarios .contenedor .der-widget .facebook-widget {
+        margin: 10px 0px;
+    }
+    
+    
+    .codigovivo .contenedor .video {
+        width: 50%;
+        padding: 5px;
+        height: 320px;
+    }
+    .codigovivo {
+        padding: 0px 0px 70px;
+    }
+    
+    
+    
+    /*----- Listas de Reproducción -----*/
+    .listas-de-reproduccion .contenedor {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .listas-de-reproduccion .contenedor .video {
+        width: 30%;
+        margin: 0px 5px;
+    }
+    .listas-de-reproduccion .contenedor .video:hover {
+        background: #ccc;
+    }
+}
+

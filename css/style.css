@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2 family=Cabin&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+@import url(menu.css);
+@import url(date-time.css);
+@import url(slider.css);
+/*----- Generales -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/background.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+/*----------------- Main -----------------*/
+main .portada {
+    font-size: 18px;
+    min-height: 150px;
+    color: #fff;
+    background: url(../img/main-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+main .portada .contenedor {
+    text-align: center;
+}
+main .portada .contenedor .texto h2 {
+    color: #000;
+    font-size: 12pt;
+}
+/*----------------- REPRODUCTORES / PARTE 1 -----------------*/
+.programas-barra {
+    background: #fbfbfb;
+    padding: 10px 0px;
+}
+.parte-1 {
+    background: #fbfbfb;
+    padding: 15px 0px;
+}
+/*----------------- PARTE 2 / VIDEOS Y PROGRAMAS -----------------*/
+.parte-2 {
+    margin: 10px 0px;
+}
+.parte-2 .contenedor .ultimos-videos .reciente h3 {
+    margin: 10px 5px;
+}
+.parte-2 .contenedor .ultimos-videos img {
+    width: 100%;
+}
+/*----------------- PROGRAMAS -----------------*/
+.parte-2 {
+    background: #fff;
+}
+.parte-2 .contenedor .programas h3 {
+    margin: 10px 5px;
+}
+.parte-2 .contenedor .programas img {
+    width: 150px;
+}
+.parte-2 .contenedor .programas .programa {
+    display: flex;
+    margin: 5px 0px;
+}
+.parte-2 .contenedor .programas .programa .texto {
+    width: 100%;
+}
+.parte-2 .contenedor .programas .programa .texto {
+    padding: 10px;
+    background: #fff;
+}
+.parte-2 .contenedor .programas .boton {
+    padding: 20px;
+    text-align: center;
+    background: #1a5ad9;
+}
+.parte-2 .contenedor .programas .boton:hover {
+    background: #ccc;
+}
+.parte-2 .contenedor .programas .boton a {
+    text-decoration: none;
+    color: #fff;
+}
+.parte-2 .contenedor .programas .boton a:hover {
+    color: #000;
+}
+/*----------------- ENTREVISTAS -----------------*/
+.tendencias {
+    background: url(../img/degradados/degradado-1.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 30px 0px;
+    color: #fff;
+}
+.tendencias .contenedor .videos .video {
+    width: 100%;
+    margin: 5px 0px;
+}
+.tendencias .contenedor .videos .video iframe {
+    width: 100%;
+    height: 200px;
+}
+
+/*----------------- Reels -----------------*/
+
+
+
+/*----------------- Listas de Reproducción -----------------*/
+.listas-de-reproduccion {
+    padding: 20px 0px;
+}
+.listas-de-reproduccion .titulo .contenedor h2 {
+    margin: 10px 0px;
+}
+.listas-de-reproduccion .contenedor .lista img {
+    width: 100%;
+}
+
+/*----------------- COMENTARIOS FACEBOOK -----------------*/
+.comentarios .contenedor .izq-coments .tex-comentarios h4 {
+    padding: 20px 10px;
+    background: #fff;
+}
+.comentarios .contenedor .izq-coments .comentarios {
+    background: #fff;
+}
+.comentarios .contenedor .der-widget .facebook-widget {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*----------------- QUIENES SOMOS -----------------*/
+.quienes-somos {
+    background: #fff;
+    padding: 50px 0px;
+}
+.quienes-somos .contenedor .titulo {
+    text-align: center;
+}
+.quienes-somos .contenedor .titulo h4 {
+    margin: 0px 0px;
+}
+.quienes-somos .contenedor .mapa-global img {
+    width: 100%;
+    margin: 20px 0px;
+}
+.quienes-somos .contenedor .paises-principales {
+    text-align: center;
+}
+.quienes-somos .contenedor .boton {
+    height: 50px;
+    text-align: center;
+    margin: 30px 0px 0px;
+}
+.quienes-somos .contenedor .boton a {
+    padding: 10px;
+    background: #9b4775;
+    text-decoration: none;
+    color: #fff;
+}
+.quienes-somos .contenedor .boton a:hover {
+    background: #2d56c0;
+}
+
+/*----- Reels o Shorts -----*/
+.swiper-container .titulo .contenedor {
+    text-align: center;
+}
+.swiper-container .titulo .contenedor h3 {
+    font-size: 32pt;
+    margin: 20px;
+}
+
+.fire-programs {
+    padding: 50px;
+    background: url(../img/degradados/degradado-1.png);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.fire-programs .titulo .contenedor h2 {
+    margin: 15px 0px;
+}
+
+
+
+/*----- Pie de página / Footer -----*/
+.footer {
+    background: #333;
+    padding: 50px 10px;
+    color: #fff;
+    text-decoration: none;
+} .footer .contenedor .espacio {
+    align-content: center;
+    text-align: center;
+}
+.footer .contenedor .espacio img {
+    width: 200px;
+}
+.footer .contenedor a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer .contenedor .centro {
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0px;
+}
+.footer .contenedor .centro .redes img {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.footer .contenedor .enlaces {
+    text-align: center;
+}
+.footer .contenedor .enlaces .boton {
+    margin: 10px 0px;
+    text-align: center;
+}
+.footer  .final {
+    text-align: center;
+}
+.footer  .final p {
+    font-size: 8px;
+}
+/*----- Estilos de 1024px en escritorio -----*/
+@media (min-width:768px) {
+    .contenedor {
+        width: 90%;
+    }
+    .programas-barra .contenedor h2 {
+        text-align: center;
+        font-size: 35pt;
+        color: #1a5ad9;
+        padding: 20px 10px;
+    }
+    
+    
+    /*----------------- Main -----------------*/
+    main .portada {
+        font-size: 18px;
+        min-height: 350px;
+        color: #fff;
+        background: url(../img/main-background.jpg);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+    }
+    main .portada .contenedor {
+        text-align: center;
+    }
+    main .portada .contenedor .texto h2 {
+        color: #000;
+        font-size: 32pt;
+    }
+    
+    
+    /*----- REPRODUCTORES -----*/
+    .parte-1 {
+        padding: 15px 0px;
+    }
+    .parte-1 .contenedor {
+        display: flex;
+    }
+    .parte-1 .contenedor .radio {
+        width: 70%;
+        margin: 0px 5px;
+    }
+    .parte-1 .contenedor .radio .reproductor img {
+        margin: 5px 0px 0px 0px;
+    }
+    .parte-1 .contenedor .radio .reproductor h3 {
+        color: #292929;
+    }
+    .parte-1 .contenedor .television {
+        width: 30%;
+    }
+    .parte-1 .contenedor .radio .redes img {
+        margin: 0px 5px;
+    }
+    
+    
+    
+    /*----- PARTE 2 / ULTIMOS PROGRAMAS -----*/
+    .parte-2 .contenedor {
+        display: flex;
+    }
+    .parte-2 .contenedor .ultimos-videos {
+        width: 70%;
+        display: flex;
+    }
+    .parte-2 .contenedor .ultimos-videos .reciente {
+        width: 65%;
+    }
+    .parte-2 .contenedor .ultimos-videos .reciente a:hover {
+        background: #000;
+    }
+    .parte-2 .contenedor .ultimos-videos .pasados {
+        width: 32%;
+        margin: 42px 5px;
+    }
+    .parte-2 .contenedor .ultimos-videos .pasados a:hover {
+        background: #222;
+    }
+    .parte-2 .contenedor .programas {
+        width: 30%;
+    }
+    .parte-2 .contenedor .programas .programa {
+        height: 70px;
+    }
+    .parte-2 .contenedor .programas .programa :hover {
+        background: #ccc;
+    }
+    .parte-2 .contenedor .programas .programa img {
+        width: 70px;
+        height: 70px;
+    }
+    .parte-2 .contenedor .programas .programa .texto {
+        width: 100%;
+    }
+    
+    /*----- PARTE 2 / TENCIAS DE LA SEMANA -----*/
+    .tendencias .contenedor h3 {
+        color: #fff;
+    }
+    .tendencias .contenedor p {
+        margin: 10px 0px;
+    }
+    .tendencias .contenedor .videos {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .tendencias .contenedor .videos .video {
+        width: 24.1%;
+        height: 170px;
+        margin: 5px 5px;
+    }
+    .tendencias .contenedor .videos .video iframe {
+        width: 100%;
+    }
+    
+    /*----- Listas de Reproducción -----*/
+    .listas-de-reproduccion .contenedor {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .listas-de-reproduccion .contenedor .lista {
+        width: 24%;
+        margin: 0px 5px;
+    }
+    .listas-de-reproduccion .contenedor .lista:hover {
+        background: #ccc;
+    }
+
+    /*----- Comentarios y Wi de Facebook y Twitter -----*/
+    .comentarios .contenedor {
+        display: flex;
+    }
+    .comentarios .contenedor .izq-coments {
+        width: 70%;
+        margin: 10px 0px;
+        padding: 0px;
+    }
+    .comentarios .contenedor .izq-coments .tex-comentarios {
+        margin: 0px;
+    }
+    .comentarios .contenedor .izq-coments .comentarios {
+        background: #fff;
+    }
+    .comentarios .contenedor .der-widget {
+        width: 30%;
+        margin: 0px 10px;
+    }
+    .comentarios .contenedor .der-widget .facebook-widget {
+        margin: 10px 0px;
+    }
+    
+    /*----- Programas audio -----*/
+    .fire-programs {
+        padding: 50px;
+        background: url(../img/degradados/degradado-1.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        color: #fff;
+    }
+    .fire-programs .contenedor {
+        display: flex;
+    }
+    .fire-programs .contenedor .program {
+        width: 50%;
+    }
+    .fire-programs .contenedor .program h3 {
+        padding: 20px;
+    }
+    
+    
+    
+    
+    /*-------------------- ¿QUÉ ES CÓDIGO56100? --------------------*/
+    
+    .quienes-somos .contenedor .mapa-global {
+        text-align: center;
+    }
+    .quienes-somos .contenedor .mapa-global img {
+        width: 800px;
+    }
+    .quienes-somos .contenedor .paises-principales {
+        text-align: center;
+    }
+    .quienes-somos .contenedor .paises-principales img {
+        width: 500px;
+    }
+    
+    
+    .ads .contenedor .slider li {
+        margin: 20px 0px 0px;
+    }
+    
+    
+    
+}
+

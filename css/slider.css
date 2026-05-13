@@ -1,0 +1,83 @@
+.ads .contenedor .slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ads .contenedor .slider ul {
+    display: flex;
+    padding: 0;
+    width: 2000%;
+    animation: cambio 400s infinite;
+    animation-timing-function: step-start;
+}
+
+.ads .contenedor .slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.ads .contenedor .slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    5% { margin-left: 0; }
+    
+    5.1% { margin-left: -100%; }
+    10% { margin-left: -100%; }
+    
+    10.1% { margin-left: -200%; }
+    15% { margin-left: -200%; }
+    
+    15.1% { margin-left: -300%; }
+    20% { margin-left: -300%; }
+    
+    20.1% { margin-left: -400%; }
+    25% { margin-left: -400%; }
+    
+    25.1% { margin-left: -500%; }
+    30% { margin-left: -500%; }
+    
+    30.1% { margin-left: -600%; }
+    35% { margin-left: -600%; }
+    
+    35.1% { margin-left: -700%; }
+    40% { margin-left: -700%; }
+    
+    40.1% { margin-left: -800%; }
+    45% { margin-left: -800%; }
+    
+    45.1% { margin-left: -900%; }
+    50% { margin-left: -900%; }
+    
+    50.1% { margin-left: -1000%; }
+    55% { margin-left: -1000%; }
+    
+    55.1% { margin-left: -1100%; }
+    60% { margin-left: -1100%; }
+    
+    60.1% { margin-left: -1200%; }
+    65% { margin-left: -1200%; }
+    
+    65.1% { margin-left: -1300%; }
+    70% { margin-left: -1300%; }
+    
+    70.1% { margin-left: -1400%; }
+    75% { margin-left: -1400%; }
+    
+    75.1% { margin-left: -1500%; }
+    80% { margin-left: -1500%; }
+    
+    80.1% { margin-left: -1600%; }
+    85% { margin-left: -1600%; }
+    
+    85.1% { margin-left: -1700%; }
+    90% { margin-left: -1700%; }
+    
+    90.1% { margin-left: -1800%; }
+    95% { margin-left: -1800%; }
+    
+    95.1% { margin-left: -1900%; }
+    100% { margin-left: -1900%; }
+}

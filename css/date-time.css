@@ -1,0 +1,26 @@
+.wrap {
+    background: #484848;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+.wrap .widget {
+    overflow: hidden;
+}
+.wrap .contenedor .widget .fecha p {
+    margin: 0px 2px;
+}
+.wrap .contenedor .widget .fecha {
+    display: flex;
+    float: left;
+    margin: 0px 10px;
+}
+.wrap .contenedor .widget .reloj {
+    display: flex;
+    float: right;
+}
+.wrap .contenedor .widget .reloj p {
+    margin: 0px 2px;
+    float: left;
+}

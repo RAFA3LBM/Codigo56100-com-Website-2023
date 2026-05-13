@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2 family=Cabin&family=Open+Sans:ital,wght@0,300;0,700;1,300&display=swap');
+@import url(menu.css);
+@import url(date-time.css);
+@import url(slider.css);
+/*----- Generales -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/background.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*----- EQUIPO CÓDIGO56100 -----*/
+.equipo-codigo56100 {
+    background: url(../img/degradados/degradado-1.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 30px 0px;
+    color: #fff;
+}
+.equipo-codigo56100 .contenedor .titulo {
+    padding: 20px 0px;
+    text-align: center;
+}
+.equipo-codigo56100 .contenedor .equipo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.equipo-codigo56100 .contenedor .equipo .persona {
+    text-align: center;
+    padding: 10px 0px;
+    justify-items: center;
+    width: 100%;
+}
+.equipo-codigo56100 .contenedor .equipo .persona img {
+    width: 150px;
+    margin: 20px;
+}
+
+
+/*----------------- Titulo principal / Main -----------------*/
+
+.titulo-principal {
+    padding: 20px 0px 10px;
+    background: #fff;
+}
+.presentacion {
+    padding: 10px 0px;
+    background: #fff;
+}
+.presentacion .contenedor .descripcion {
+    margin: 10px 0px;
+    text-align: justify;
+}
+.presentacion .contenedor .video {
+    height: 180px;
+}
+.presentacion .contenedor .descripcion a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    background: mediumorchid;
+}
+/*----------------- Musica / Main -----------------*/
+.musica {
+    padding: 20px 0px;
+}
+.musica .contenedor {
+    text-align: center;
+    justify-content: center;
+}
+.musica .contenedor img {
+    width: 200px;
+}
+.musica .contenedor .texto {
+    text-align: justify;
+}
+/*----------------- Transmitimos / Main -----------------*/
+.transmitimos {
+    padding: 20px 0px;
+    text-align: center;
+    background: #fff;
+}
+.transmitimos .contenedor .titulo {
+    padding: 20px 0px;
+}
+.transmitimos .contenedor .boton a {
+    text-decoration: none;
+    color: #884981;
+}
+.transmitimos .contenedor .boton a:hover {
+    color: #ccc;
+}
+
+/*----------------- Principales Audiencias / Main -----------------*/
+.principales-audiencias {
+    background: #5a51a3;
+    color: #fff;
+}
+.principales-audiencias .titulo {
+    text-align: center;
+    padding: 20px 0px;
+}
+.principales-audiencias .contenedor .audiencias {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+}
+.principales-audiencias .contenedor .audiencias .pais img {
+    width: 100%;
+}
+.principales-audiencias .contenedor .audiencias .pais {
+    margin: 5px;
+    width: 70px;
+}
+
+/*----------------- Nuestro publico / Main -----------------*/
+
+.nuestro-publico {
+    padding: 50px 0px;
+    background: #724c90;
+    color: #fff;
+}
+
+/*----------------- Potencial economico / Main -----------------*/
+.potencial-economico {
+    background: #7e4a87;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+
+
+
+
+
+
+/*----- Pie de página / Footer -----*/
+.footer {
+    background: #333;
+    padding: 50px 10px;
+    color: #fff;
+    text-decoration: none;
+} .footer .contenedor .espacio {
+    align-content: center;
+    text-align: center;
+}
+.footer .contenedor .espacio img {
+    width: 200px;
+}
+.footer .contenedor a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer .contenedor .centro {
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0px;
+}
+.footer .contenedor .centro .redes img {
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.footer .contenedor .enlaces {
+    text-align: center;
+}
+.footer .contenedor .enlaces .boton {
+    margin: 10px 0px;
+    text-align: center;
+}
+.footer  .final {
+    text-align: center;
+}
+.footer  .final p {
+    font-size: 8px;
+}
+
+
+/*----- Estilos de 1024px en escritorio -----*/
+
+@media (min-width:768px) {
+    .contenedor {
+        width: 90%;
+    }
+    .codigovivo .contenedor iframe {
+        height: 600px;
+    }
+    
+    /*----- Presentacion -----*/
+    .presentacion {
+        padding: 50px 0px;
+    }
+    .presentacion .contenedor {
+        display: flex;
+    }
+    .presentacion .contenedor .video {
+        width: 50%;
+        height: 320px;
+    }
+    .presentacion .contenedor .descripcion {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    /*----- EQUIPO CÓDIGO56100 -----*/
+    .equipo-codigo56100 .contenedor .equipo .persona {
+        width: 240px;
+    }
+    
+    /*----- Musica -----*/
+    .musica {
+        padding: 70px 0px;
+        text-align: center;
+    }
+    .musica .contenedor .texto {
+        text-align: center;
+    }
+    .principales-audiencias {
+        justify-content: center;
+        justify-items: center;
+    }
+    .principales-audiencias .contenedor .audiencias {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .principales-audiencias .contenedor .audiencias .pais {
+        width: 19%;
+        text-align: center;
+    }
+    .principales-audiencias .contenedor .audiencias .pais img {
+        width: 120px;
+    }
+    
+    /*----- Mapa mundial -----*/
+    .transmitimos .contenedor .mapa-mundial .contenedor img {
+        width: 800px;
+    }
+    
+    
+    
+}
+
